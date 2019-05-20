@@ -21,4 +21,4 @@ install:
 
 script:
   - npx lix run travix node
-  - npx lix run travix cpp
+  # - npx lix run travix cpp
