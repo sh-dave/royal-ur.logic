@@ -1,0 +1,9 @@
+{
+	"name": "royal-ur.logic",
+	"url": "https://github.com/sh-dave/royal-url.logic.git",
+	"classPath": "src",
+	"license": "zlib",
+	"releasenote": "",
+	"contributors": ["sh-dave"],
+	"version": "0.1.0"
+}

@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "postinstall": "npx lix download"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lix": "^15.4.0"
+  }
+}

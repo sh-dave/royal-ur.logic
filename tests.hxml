@@ -1,0 +1,9 @@
+-lib coconut.data
+-lib tink_unittest
+
+-cp src
+-cp tests
+-main RunTests
+
+-dce full
+-D analyzer_optimize
