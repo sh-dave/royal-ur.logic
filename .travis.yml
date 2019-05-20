@@ -1,0 +1,24 @@
+dist: xenial
+
+language: node_js
+node_js: 8
+
+cache:
+  directories:
+    - $HOME/haxe
+
+os:
+  - linux
+
+env:
+  - HAXE_VERSION=4.0.0-rc.1
+  - HAXE_VERSION=latest
+
+install:
+  - npm install lix
+  - npx lix install haxe $HAXE_VERSION
+  - npx lix download
+
+script:
+  - npx lix run travix node
+  - npx lix run travix cpp
