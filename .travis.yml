@@ -12,7 +12,7 @@ os:
 
 env:
   - HAXE_VERSION=4.0.0-rc.1
-  # - HAXE_VERSION=latest
+  - HAXE_VERSION=nightly
 
 install:
   - npm install lix
